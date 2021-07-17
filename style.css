@@ -1,0 +1,114 @@
+#controller {
+    width: 150px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+#game {
+    width: 150px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+#trophy {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+#victory {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+#crown {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+#inspiration {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    transition: transform .2s;
+}
+#inspiration:hover {
+    transform: scale(0.9);
+}
+#about {
+    background: linear-gradient(cyan, blue);
+    height: 575px;
+}
+#myfavgame {
+    background: linear-gradient(navy, teal);
+    height: 750px;
+}
+h1, p {
+ color: white;
+}
+h1 {
+    font-family: Yomogi;
+}
+body {
+ text-align: center;
+ font-family: calibri;
+}
+.line {
+    height: 5px;
+    background-color: black;
+    width: 70%;
+    margin: 8px auto;
+}
+p {
+ font-size: 20px;
+ font-family: 'Varela Round', sans-serif;
+ font-weight: bold;
+}
+#No3 {
+ background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+}
+#menu {
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+    height: 60px;
+}
+.Menu {
+    z-index: 10;
+    right: 325;
+    margin-bottom: 50px;
+    list-style: none;
+    font-family: Calibri;
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+}
+#myachievements {
+    background: linear-gradient(darkblue, limegreen)
+}
+html {
+    scroll-behavior: smooth;
+}
+h2, h3 {
+    font-family: Yomogi;
+    color: white;
+}
+#myinspiration {
+    background: linear-gradient(purple, blue)
+}
