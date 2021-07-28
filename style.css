@@ -80,7 +80,7 @@ p {
 }
 .Menu {
     z-index: 10;
-    right: 325;
+    right: 7;
     margin-bottom: 50px;
     list-style: none;
     font-family: Calibri;
@@ -111,4 +111,32 @@ h2, h3 {
 }
 #myinspiration {
     background: linear-gradient(purple, blue)
+}
+li {
+  border-right: 1px solid #bbb;
+}
+li:last-child {
+  border-right: none;
+}
+.links:hover {
+    background-color: lightskyblue;
+}
+#last {
+    height: 5px;
+    background-color: black;
+    width: 20%;
+    margin: 8px auto;
+}
+#contact {
+    background: limegreen;
+}
+#contact iframe {
+    width: 100%;
+}
+.contact_1 h3 {
+    display: inline;
+}
+.contact_1 a {
+    color: white;
+    text-shadow: none;
 }
